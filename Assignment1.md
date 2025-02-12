@@ -13,7 +13,7 @@ output:
 
 ``` r
 ## Load in data
-unzip(zipfile = "repdata_data_activity.zip")
+unzip(zipfile = "activity.zip")
 activity <- read.csv("activity.csv", colClasses = c("integer", "Date", "integer"))
 ```
 
